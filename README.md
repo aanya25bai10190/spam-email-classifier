@@ -29,3 +29,44 @@ This project is a Machine Learning-based Spam Email Classifier that detects whet
 ## ▶️ How to Run
 
 1. Install dependencies:
+```bash
+pip install pandas numpy scikit-learn streamlit
+
+```
+
+### Step 2: Train the model
+```bash
+python model.py
+
+```
+
+### Step 3: Run the app
+```bash
+streamlit run app.py
+
+```
+
+---
+
+## 📈 Results
+- Achieved accuracy of **~98%**
+- Successfully detects spam and non-spam messages  
+
+---
+
+
+## 🔮 Future Improvements
+- Use advanced NLP models (like TF-IDF, Deep Learning)  
+- Deploy the app online  
+- Improve UI/UX design  
+- Add real-time email filtering  
+
+---
+
+## 👩‍💻 Author
+**Aanya Yadav**
+
+---
+
+## 📌 Conclusion
+This project demonstrates how machine learning can be applied to solve real-world problems like spam detection. It highlights the importance of data preprocessing, feature extraction, and model selection in building effective AI systems.
